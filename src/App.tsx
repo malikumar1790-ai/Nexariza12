@@ -11,6 +11,7 @@ import { ProjectBuilder } from './pages/ProjectBuilder';
 import { Milestones } from './pages/Milestones';
 import { Contact } from './pages/Contact';
 import { VoiceAI } from './pages/VoiceAI';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/voice-ai" element={<VoiceAI />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
